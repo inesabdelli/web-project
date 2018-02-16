@@ -10,6 +10,7 @@ ul {
     padding: 10px;
     background: black;
     text-align: center;
+    color: white;
   }
   li{
     display: inline;
