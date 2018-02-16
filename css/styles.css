@@ -6,11 +6,12 @@ h1 {
 p{
   font-family:sans-serif;
 }
+a {
+    color: white;
 ul {
     padding: 10px;
     background: black;
     text-align: center;
-    color: white;
   }
   li{
     display: inline;
