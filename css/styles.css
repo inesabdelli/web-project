@@ -9,8 +9,10 @@ p{
 ul {
     padding: 10px;
     background: black;
+    text-align: center;
   }
   li{
     display: inline;
     padding: 0px 10px 0px 10px;
+
   }
