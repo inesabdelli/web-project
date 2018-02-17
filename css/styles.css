@@ -1,22 +1,30 @@
 h1 {
     color: blue;
     font-family: sans-serif;
-     text-align: center;
+    text-align: center;
 }
 p{
   font-family:sans-serif;
 }
 a {
     color: white;
+  }
 ul {
     padding: 10px;
     background: black;
     text-align: center;
   }
-  li{
-    display: inline;
-    padding: 0px 10px 0px 10px;
-  }
-  .img-circle {  /* This makes a picture circular */
-      border-radius: 100%;
-      }
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+.img-circle {
+  border-radius: 100%;
+  align-content: center;
+
+}
+/*input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
