@@ -17,3 +17,6 @@ ul {
     display: inline;
     padding: 0px 10px 0px 10px;
   }
+  .img-circle {  /* This makes a picture circular */
+      border-radius: 100%;
+      }
