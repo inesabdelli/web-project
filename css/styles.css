@@ -25,9 +25,13 @@ li{
 }
 .img-circle {
   border-radius: 100%;
-  align-content: center;
-
+  border-color: black;
+  height: auto;
+  width: auto;
+  max-width: 25%;
+  max-height: 25%;
 }
+
 /*input {
     border: 0;
     padding: 10px;
