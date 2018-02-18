@@ -3,6 +3,11 @@ h1 {
     font-family: sans-serif;
     text-align: center;
 }
+body {
+  background: url("https://i.imgur.com/mXTYFHZ.jpg");
+  background-size: cover;
+  background-position: center;
+}
 p{
   font-family:sans-serif;
 }
