@@ -5,8 +5,8 @@ h1 {
 }
 body {
   background: url("https://i.imgur.com/mXTYFHZ.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
 }
 p{
   font-family:sans-serif;
