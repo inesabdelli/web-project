@@ -35,12 +35,6 @@ li{
   max-width: 25%;
   max-height: 25%;
 }
-
-/*input {
-    border: 0;
-    padding: 10px;
-    font-size: 18px;
-}*/
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
@@ -56,5 +50,5 @@ li{
 
 #social-buttons button {
   color: white;
-  align-items: center; 
+  align-items: center;
 }
