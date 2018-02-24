@@ -9,14 +9,14 @@ body {
   background-repeat: no-repeat;
   background-color: white;
 }
-welcome_message{
+.welcome_message{
   font-family:sans-serif;
   text-align: center;
 }
 a {
     color: white;
   }
-navigation_bar {
+.navigation_bar {
     padding: 10px;
     background: black;
     width: max-width;
