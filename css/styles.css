@@ -56,4 +56,5 @@ li{
 
 #social-buttons button {
   color: white;
+  align-items: center; 
 }
