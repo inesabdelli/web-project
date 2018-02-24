@@ -25,7 +25,7 @@ navigation_bar {
 li{
   display: inline;
   padding: 0px 10px 0px 10px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 .img-circle {
   border-radius: 100%;
@@ -40,4 +40,20 @@ li{
     border: 0;
     padding: 10px;
     font-size: 18px;
+}*/
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f62;
+}
+
+#social-buttons button {
+  color: white;
 }
