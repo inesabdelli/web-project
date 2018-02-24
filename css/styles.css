@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   background-color: white;
 }
-p{
+welcome_message{
   font-family:sans-serif;
   text-align: center;
 }
