@@ -12,7 +12,7 @@ body {
   font-family:sans-serif;
   text-align: center;
 }
-a {
+li a {
     color: white;
   }
 #navigation_bar {
@@ -51,7 +51,19 @@ li{
   color: white;
   align-items: center;
 }
+
 input {
     border: 0;
     padding: 10px;
     font-size: 18px;
+
+  }
+
+#header {
+      background-image: url("https://i.imgur.com/mXTYFHZ.jpg");
+      height: 871px;
+      background-position:center;
+      background-repeat:no-repeat;
+      /* change this value to edit whitespace above image; find image to 1000px*/
+      margin-top: -50px;
+    }
