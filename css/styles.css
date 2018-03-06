@@ -27,11 +27,11 @@ h1 {
 h2 {
   text-align: center;
 }
-h3 {
+h3 { /* This is for blog HEADINGS*/
   text-align: center;
   font-size: 35px;
 }
-h4 {
+h4 { /* This is for blog SUB headings*/
   text-align: center;
   font-size: 20px;
 }
