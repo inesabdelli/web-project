@@ -67,6 +67,10 @@ li{
   padding: 0px 10px 0px 10px;
   font-weight: bold;
 }
+.accomodation li {
+  display: block;
+
+}
 .img-circle {
   border-radius: 100%;
   border-color: black;
