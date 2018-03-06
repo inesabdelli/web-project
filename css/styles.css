@@ -16,10 +16,26 @@
   padding-top: 80px;
 }
 h1 {
-    color: blue;
-    font-family: 'Bellefair';
-    text-align: center;
+  font-family: arial;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 0px;
 }
+
+h2 {
+  text-align: center;
+}
+
+.main_content-column {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+}
+
 body {
   background-size: 100% 24%;
   background-repeat: no-repeat;
@@ -75,12 +91,3 @@ input {
     font-size: 18px;
 
   }
-
-#header {
-      background-image: url("https://i.imgur.com/mXTYFHZ.jpg");
-      height: 871px;
-      background-position:center;
-      background-repeat:no-repeat;
-      /* change this value to edit whitespace above image; find image to 1000px*/
-      margin-top: -50px;
-    }
