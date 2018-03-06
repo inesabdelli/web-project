@@ -1,3 +1,20 @@
+.hero_img {
+  width: 100%;
+  height: 300px;
+  background: url("https://i.imgur.com/mXTYFHZ.jpg");
+  background-size: 100%;
+  background-position-y: 35%;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#active a {
+  color: #337ab7;
+}
+
+.title_container {
+  padding-top: 80px;
+}
 h1 {
     color: blue;
     font-family: 'Bellefair';
