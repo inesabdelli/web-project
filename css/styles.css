@@ -103,5 +103,32 @@ input {
     border: 1px solid-black;
     padding: 10px;
     font-size: 18px;
-
   }
+
+
+.tips form {
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  #tip {
+    margin: 10px;
+  }
+#name {
+  margin: 10px;
+}
+#tipss {
+  margin-bottom: 10px;
+  text-align: center;
+}
+input + span {
+  padding-right: 30px;
+}
+
+
+
+input:valid+span:after {
+  position: absolute;
+  content: 'yes';
+  padding-left: 5px;
+}

@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="jquery-3.3.1.min copy.js"></script>
+        <script src="js/scripts.js"> </script>
   </head>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link href=@import"url('https://fonts.googleapis.com/css?family=Bellefair');" rel
@@ -14,7 +15,7 @@
   <body>
 
     <ul id="navigation_bar">
-        <li class="nav_item" id="active">
+        <li class="nav_item">
           <a href="index.html">Home</a>
         </li>
         <li class="nav_item">
@@ -26,7 +27,7 @@
         <li class="nav_item">
           <a href="#">Blogs</a>
         </li>
-        <li class="nav_item">
+        <li class="nav_item" id="active">
           <a href="submit_tips.html">Submit your tips</a>
         </li>
       </ul>
@@ -36,4 +37,26 @@
           <h1>The inside track of Norwich</h1>
           <h2>A resource for new students</h2>
         </div>
+      </div>
+
+      <div class="main_content-column">
+        <h3>Got any top tips yourself?</h3>
+        <p>New students can really benefit from your mistakes, I mean experience!</p>
+        <p>Please<stong> submit your own </stong>tips below. If we like them, we will add them to our content</p>
+        <form class="tips">
+          <div>
+            <label for="tip">Submit your tip! </label>
+            <input type="text" id="tip" name="name"
+           placeholder="Submit here"
+           size="75">
+           <label for="name">Please add your name and school</label>
+           <input type="text" id="name" name="name" placeholder="Name and school"
+           required size="30" pattern="[a-z]{1,20}">
+           <span class="validity"></span>
+           <button onclick="tips_function()"> Submit </button>
+           <p id="tipss"></p>
+         </div>
+       </form>
+
+      <div>
       </div>

@@ -7,3 +7,13 @@ function myFunction() {
     }
     document.getElementById("demo").innerHTML = txt;
 }
+
+function tips_function() {
+    var txt;
+    if (confirm("Press OK to submit your tip")) {
+        txt = "Thanks for your tip - We will review it soon!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("tipss").innerHTML = txt;
+}
