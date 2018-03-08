@@ -35,7 +35,9 @@ h4 { /* This is for blog SUB headings*/
   text-align: center;
   font-size: 20px;
 }
-
+.welcome_message {
+  text-align: center;
+}
 .main_content-column {
   width: 70%;
   height: 100%;
