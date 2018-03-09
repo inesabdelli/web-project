@@ -71,7 +71,9 @@ li{
 }
 .accomodation li {
   display: block;
-
+}
+.cen_txt{
+  text-align: center;
 }
 .img-circle {
   border-radius: 100%;
