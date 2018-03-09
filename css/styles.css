@@ -1,3 +1,146 @@
+.hero_img {
+  width: 100%;
+  height: 300px;
+  background: url("https://i.imgur.com/mXTYFHZ.jpg");
+  background-size: 100%;
+  background-position-y: 35%;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+#active a {
+  color: #337ab7;
+}
+
+.title_container {
+  padding-top: 80px;
+}
 h1 {
-    color: red;
+  font-family: arial;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+h2 { /* This is for the website tag line*/
+  text-align: center;
+}
+h3 { /* This is for blog HEADINGS*/
+  text-align: center;
+  font-size: 35px;
+}
+h4 { /* This is for blog SUB headings*/
+  text-align: center;
+  font-size: 20px;
+}
+.welcome_message {
+  text-align: center;
+}
+.main_content-column {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+body {
+  background-size: 100% 24%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+#welcome_message{
+  font-family:sans-serif;
+  text-align: center;
+}
+li a {
+    color: white;
+  }
+#navigation_bar {
+    padding: 10px;
+    background: black;
+    width: max-width;
+    text-align: center;
+  }
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-weight: bold;
+}
+.accomodation li {
+  display: block;
+
+}
+.img-circle {
+  border-radius: 100%;
+  border-color: black;
+  height: auto;
+  width: auto;
+  max-width: 25%;
+  max-height: 25%;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f62;
+}
+
+#social-buttons button {
+  color: white;
+  align-items: center;
+}
+
+input {
+    border: 1px solid-black;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+
+.tips form {
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  #tip {
+    height:50px;
+    margin: 10px;
+
+  }
+#name {
+    margin: 10px;
+}
+#tipss {
+  margin-bottom: 10px;
+  text-align: center;
+}
+input + span {
+  padding-right: 30px;
+}
+
+input:invalid+span:after {
+  position: absolute; content: ':|';
+  padding-left: 5px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: ':)';
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
 }
