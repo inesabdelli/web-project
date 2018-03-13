@@ -45,7 +45,13 @@ h4 { /* This is for blog SUB headings*/
   background-color: white;
   padding: 30px;
 }
-
+.blog {
+  margin-bottom: 100px;
+  border-style: double;
+  border-width: 3px;
+  padding: 4px;
+  border-color: grey;
+}
 body {
   background-size: 100% 24%;
   background-repeat: no-repeat;
