@@ -75,6 +75,11 @@ li{
 .cen_txt{
   text-align: center;
 }
+.centre_rows {
+  margin: auto;
+  width: 60%;
+
+}
 .img-circle {
   border-radius: 100%;
   border-color: black;
