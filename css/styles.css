@@ -124,6 +124,10 @@ input {
     width: auto\9; /* ie8 */
     border-radius: 20%;
       }
+  .hang-pics {
+    margin: 5px;
+    margin-bottom: 20px;
+  }
 
 .tips form {
     margin-bottom: 10px;
