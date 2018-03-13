@@ -60,6 +60,7 @@ body {
 #welcome_message{
   font-family:sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 li a {
     color: white;
