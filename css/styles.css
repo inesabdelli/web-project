@@ -106,7 +106,15 @@ input {
     padding: 10px;
     font-size: 18px;
   }
+  .img-circle {
 
+      }
+    .img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    border-radius: 20%;
+      }
 
 .tips form {
     margin-bottom: 10px;
