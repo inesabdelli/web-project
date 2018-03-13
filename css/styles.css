@@ -80,14 +80,14 @@ li{
   width: 60%;
 
 }
-.img-circle {
+/*.img-circle { - don't think this is needed anymore
   border-radius: 100%;
   border-color: black;
   height: auto;
   width: auto;
   max-width: 25%;
   max-height: 25%;
-}
+}*/
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
